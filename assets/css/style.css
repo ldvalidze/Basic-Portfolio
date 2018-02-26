@@ -1,6 +1,7 @@
 body {
-    background-image: url("../images/fresh_snow.png")
-}
+    background-image: url("../images/fresh_snow.png");
+    }
+
 
 p {
     padding: 20px;
@@ -43,15 +44,18 @@ h2 {
     width: 550px;
     margin-left: 10%;
     border-radius: 5px;
+    min-height: 100%;
+    position: relative;
 }
 
 #ConnectBox {
+    position: relative;
     background-color: white;
     width: 270px;
     float: right;
     border-radius: 5px;
     margin-right: 10% ;
-    position: relative;  
+     
 }
 
 
@@ -59,11 +63,14 @@ h2 {
 footer {
     background-color: #666666;
     height: 35px;
+    width: 100%;
     text-align: center;
     color: rgb(216, 216, 216);
     padding-top: 15px;
     clear: both;
     border-top: #4aaaa5 10px solid;
+    
+    
 }
 
 #AboutMe {
