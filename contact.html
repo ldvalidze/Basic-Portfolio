@@ -1,66 +1,57 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Levan Dvalidze</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
+  <meta charset="UTF-8">
+  <title>Contact | Levan Dvalidze</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
 
-<header id="HeaderBox">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Levan Dvalidze</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <h1 id="name">Levan Dvalidze</h1>
-        
-    <h2 id="Contact">
-        <a href="contact.html"> Contact </a>
-    </h2>
-                
-    <h2>
-        <a href="portfolio.html"> Portfolio </a> 
-    </h2>
-                
-    <h2>
-        <a href="index.html"> About </a>
-    </h2>
-                                
-</header>        
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-<div class="MainContant">
-    
-    <h1 id="AboutMe">Contact</h1>
-
-    <form>
+      <form id="contact-form">
         <ul>
-            <li>NAME </li>
-            <li><input type="text" name="NAME"></li>
-            <li>Email</li>
-            <li><input type="text" name="Email"></li>
-            <li>Message</li>
-            <li><input type="text" name="Message"></li>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
         </ul>
-    </form>
+        <input type="submit">
+      </form>
 
-</div>    
-    
-<div id="ConnectBox">
+    </section>
 
-        <h3>Connect With Me</h3>
+  </div>
 
-        <ul > <img class="logo" src="assets/images/Github.jpg" alt="GitHub"> </ul>
-
-        <ul> <img class="logo" src="assets/images/LinkedIn.jpg" alt="LinkedIn"> </ul>
-
-        <ul> <img class="logo" src="assets/images/FacebookLogo.jpg" alt="Facebook"> </ul>
-
-</div>    
-
-
-
-    <footer>Copyright 2018 Levan Dvalidze</footer>
-    
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
+
 </html>
